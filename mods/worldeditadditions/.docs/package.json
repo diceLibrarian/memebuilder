@@ -1,0 +1,37 @@
+{
+	"name": "worldeditadditions",
+	"version": "1.0.0",
+	"description": "Documentation website for WorldEditAdditions",
+	"main": "index.js",
+	"private": true,
+	"scripts": {
+		"test": "echo \"No tests have been implemented yet\"",
+		"start": "npx @11ty/eleventy --serve",
+		"build": "npx @11ty/eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sbrl/Minetest-WorldEditAdditions.git"
+	},
+	"author": "Starbeamrainbowlabs",
+	"license": "MPL-2.0",
+	"bugs": {
+		"url": "https://github.com/sbrl/Minetest-WorldEditAdditions/issues"
+	},
+	"homepage": "https://github.com/sbrl/Minetest-WorldEditAdditions#readme",
+	"devDependencies": {
+		"@11ty/eleventy": "^0.12.1",
+		"chroma-js": "^2.1.2",
+		"columnify": "^1.5.4",
+		"debug": "^4.3.2",
+		"imagickal": "^5.0.1",
+		"markdown-it-prism": "^2.2.1",
+		"p-memoize": "^6.0.1",
+		"p-queue": "^7.1.0",
+		"phin": "^3.6.0",
+		"pretty-ms": "^7.0.1"
+	},
+	"dependencies": {
+		"html-entities": "^2.3.2"
+	}
+}

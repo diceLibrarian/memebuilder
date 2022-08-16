@@ -1,0 +1,157 @@
+--------------------------------------------------
+Ver. 7.0 [09.02.2021]
+
+Bucket water generation rewrite
+	- better support for liquid definition from other mods
+	- river water bucket added back + setting to unify
+	- other mods ca unify with function "bucket.register_bucket_as_diffrent_liquid(source, flowing, destination_source, force_renew)"
+	- dynamic_liquid bettes support - no changes needed 
+	
+New Settings
+	# Unify water and river water
+	# - taken river water is going to be changed to clasic water
+	bucket_unify_river_water (Unify river water) bool false
+	
+	# Bucket liquid reverse interval
+	# - if bucket water gets in touch with original source or water+lava
+	#   then if will be changet back to original source
+	# - in seconds
+	bucket_liquid_abm (Bucket liquid reserve interval) float 1.0
+
+--------------------------------------------------
+Ver. 6.2 [06.02.2021]
+
+BUG Fix: Translation implemetation update
+		- to get rid of ERROR[Main]: Ignoring escape sequence 'T....' in translation
+		if bucket defined in another mod with translation implemnted
+
+--------------------------------------------------
+Ver. 6.1 [24.01.2021]
+
+BUG Fix: Lava as fuel for lava enabled buckets
+
+BUG Fix: Buckets addet to dungeon_loot
+
+--------------------------------------------------
+Ver. 6.0 [23.01.2021]
+
+Added group get_lava
+	- if get_lava=0 the bucket can not take lava
+		Default for wood, bronze, gold
+	- if get_lava=0 the bucket can not take lava
+		Default for stone, steel, mese, diamond, gold
+
+Added Settings for getting lava
+	# Get lava with steel bucket
+	bucket_getlava_steel (Enable steel bucket) bool true
+	# Get lava with wood bucket
+	bucket_getlava_wood (Enable wood bucket) bool false
+	# Get lava with stone bucket
+	bucket_getlava_stone (Enable stone bucket) bool true
+	# Get lava with bronze bucket
+	bucket_getlava_bronze (Enable bronze bucket) bool false
+	# Get lava with mese bucket
+	bucket_getlava_mese (Enable mese bucket) bool true
+	# Get lava with diamond bucket
+	bucket_getlava_diamond (Enable diamond bucket) bool true
+	# Get lava with gold bucket
+	bucket_getlava_gold (Enable gold bucket) bool false
+		
+--------------------------------------------------
+Ver. 5.1 [15.01.2021]
+
+Switches for buckettypes are implemented:
+	# Enable steel bucket
+	bucket_material_steel (Enable steel bucket) bool true
+	# Enable wood bucket
+	bucket_material_wood (Enable wood bucket) bool true
+	# Enable stone bucket
+	bucket_material_stone (Enable stone bucket) bool true
+	# Enable bronze bucket
+	bucket_material_bronze (Enable bronze bucket) bool true
+	# Enable mese bucket
+	bucket_material_mese (Enable mese bucket) bool true
+	Enable diamond bucket
+	bucket_material_diamond (Enable diamond bucket) bool true
+	Enable gold bucket
+	bucket_material_gold (Enable gold bucket) bool true
+
+	
+	# Default bucket type
+	# - do not disable defined type, or you get nothing with /giveme bucket
+	bucket_default_type (Bucket default type) enum steel steel,wood,stone,bronze,mese,diamond,gold
+	
+BUG fixed
+	- bucket return not working correctly is itemstack > 1
+
+--------------------------------------------------
+Ver. 5.0 [13.01.2021]
+
+Added settings:
+	bucket_use_clasic_recipe - use clasic recipe for bucket if true
+	bucket_material_... - settings for allowed materials
+	
+Some code cleanup
+
+Support for other mods defining bucket with own water
+	- all materials are supported
+	- like for water_life muddy water
+	- no special bucket water with reduces flowing is implemented (yet)
+
+Bucket images are a little bit lighter
+
+--------------------------------------------------
+Ver. 4.1 [20.12.2020]
+
+Added better support for dynamic liquid (patched)
+	- https://github.com/daretmavi/dynamic_liquid
+	- checks if add_to_water_nodes is available
+
+--------------------------------------------------
+Ver. 4.0 [05.12.2020]
+
+Different material for bucket crafting are added
+	local craft_ingreds = {
+		wood = {"group:wood", "default_wood.png"},
+		stone = {"group:stone", "default_stone.png"},
+		steel = {"default:steel_ingot", "default_steel_block.png"},
+		bronze = {"default:bronze_ingot", "default_bronze_block.png"},
+		mese = {"default:mese_crystal", "default_mese_block.png"},
+		diamond = {"default:diamond", "default_diamond_block.png"},
+		gold = {"default:gold_ingot", "default_gold_block.png"}
+	}
+
+Default bucket is steel
+
+Translation template update
+
+SK Translation update
+	
+--------------------------------------------------
+Ver. 3.0 [27.11.2020]
+
+Added posibility to take flowing liquid
+	- Source node is taken from flowing (searched in liquid_range)
+
+Settings added (settingtypes.txt)
+	- bucket_get_flowing (Default = true) - Flowing liwuid can be taken
+	
+--------------------------------------------------
+Ver. 2.0 [14.11.2020]
+
+Settings added (settingtypes.txt)
+	- bucket_water_flowing_range (Default = 1)
+	- bucket_lava_flowing_range (Default = 1)
+
+Code cleanup, global names defined
+	- Liquid_name - all use liquid names
+		.water - all water like names
+		.lava - all lava like names
+	- bucket
+		- bucket names definitions
+		- bucket material defined
+
+--------------------------------------------------
+Ver. 1.0 [10.11.2020]
+
+Fist release

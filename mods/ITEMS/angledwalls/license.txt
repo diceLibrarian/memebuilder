@@ -1,0 +1,148 @@
+=========================================
+
+License of source code:
+-----------------------
+Copyright (C) 2011-2012 celeron55, Perttu Ahola <celeron55@gmail.com>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation; either version 2.1 of the License, or
+(at your option) any later version.
+
+http://www.gnu.org/licenses/lgpl-2.1.html
+
+License of media (textures and sounds)
+--------------------------------------
+Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+http://creativecommons.org/licenses/by-sa/3.0/
+
+Authors of media files
+-----------------------
+Everything not listed in here:
+Copyright (C) 2010-2012 celeron55, Perttu Ahola <celeron55@gmail.com>
+
+Cisoun's WTFPL texture pack:
+  default_stone.png
+
+VanessaE (WTFPL):
+  default_desert_stone.png
+  
+Calinou (CC BY-SA):
+  default_brick.png
+  default_mineral_copper.png
+  default_glass_detail.png
+
+PilzAdam (WTFPL):
+  default_obsidian_glass.png
+  default_mineral_gold.png
+  
+jojoa1997 (WTFPL):
+  default_obsidian.png
+
+InfinityProject (WTFPL):
+  default_mineral_diamond.png
+
+Splizard (CC BY-SA 3.0):
+  default_snow.png
+  
+Zeg9 (CC BY-SA 3.0):
+  default_coal_block.png
+  default_steel_block.png
+  default_copper_block.png
+  default_bronze_block.png
+  default_gold_block.png
+
+paramat (CC BY-SA 3.0):
+  default_acacia_wood.png
+  default_junglewood.png
+  default_sandstone_brick.png
+  default_obsidian_brick.png
+  default_stone_brick.png
+  default_desert_stone_brick.png
+
+TumeniNodes (CC BY-SA 3.0):
+  default_desert_cobble.png -- Derived from a texture by brunob.santos (CC BY-SA 3.0)
+
+BlockMen (CC BY-SA 3.0):
+  default_wood.png
+  door_obsidian_glass_side.png
+
+sofar (CC BY-SA 3.0):
+  default_aspen_wood, derived from default_pine_wood (by paramat)
+
+Neuromancer (CC BY-SA 2.0):
+  default_cobble.png, based on texture by Brane praefect
+  default_mossycobble.png, based on texture by Brane praefect
+
+PenguinDad (CC BY-SA 4.0):
+  door_glass.png
+  door_obsidian_glass.png
+
+Gambit (WTFPL):
+  default_diamond_block.png
+
+asl97 (WTFPL):
+  default_ice.png
+
+Obsidian door textures by red-001 based on textures by Pilzadam and BlockMen (CC BY-SA 3.0):
+  door_obsidian_glass.png
+
+Glass door textures by Krock based on textures by VanessaE (CC BY-SA 3.0):
+  doors_door_glass.png
+  doors_item_glass.png
+
+All other textures (created by PilzAdam) (CC BY-SA 3.0):
+
+Door textures were converted to the new texture map by sofar, paramat and
+red-001, under the same license as the originals.
+
+Glass breaking sounds (CC BY 3.0):
+  1: http://www.freesound.org/people/cmusounddesign/sounds/71947/
+  2: http://www.freesound.org/people/Tomlija/sounds/97669/
+  3: http://www.freesound.org/people/lsprice/sounds/88808/
+
+Mito551 (sounds) (CC BY-SA):
+  default_dig_choppy.ogg
+  default_dig_cracky.ogg
+  default_dig_crumbly.1.ogg
+  default_dig_crumbly.2.ogg
+  default_dig_dig_immediate.ogg
+  default_dig_oddly_breakable_by_hand.ogg
+  default_dug_node.1.ogg
+  default_dug_node.2.ogg
+  default_grass_footstep.1.ogg
+  default_grass_footstep.2.ogg
+  default_grass_footstep.3.ogg
+  default_gravel_footstep.1.ogg
+  default_gravel_footstep.2.ogg
+  default_gravel_footstep.3.ogg
+  default_gravel_footstep.4.ogg
+  default_grass_footstep.1.ogg
+  default_place_node.1.ogg
+  default_place_node.2.ogg
+  default_place_node.3.ogg
+  default_place_node_hard.1.ogg
+  default_place_node_hard.2.ogg
+  default_snow_footstep.1.ogg
+  default_snow_footstep.2.ogg
+  default_hard_footstep.1.ogg
+  default_hard_footstep.2.ogg
+  default_hard_footstep.3.ogg
+  default_sand_footstep.1.ogg
+  default_sand_footstep.2.ogg
+  default_wood_footstep.1.ogg
+  default_wood_footstep.2.ogg
+  default_dirt_footstep.1.ogg
+  default_dirt_footstep.2.ogg
+  default_glass_footstep.ogg
+
+Opening-Sound created by CGEffex (CC BY 3.0), modified by BlockMen
+  door_open.ogg
+Closing-Sound created by bennstir (CC BY 3.0)
+  door_close.ogg
+Steel door sounds open & close (CC-BY-3.0) by HazMatt
+  - http://www.freesound.org/people/HazMattt/sounds/187283/
+  doors_steel_door_open.ogg
+  doors_steel_door_close.ogg
+doors_glass_door_open.ogg, doors_glass_door_close.ogg:
+  https://www.freesound.org/people/SkeetMasterFunk69/sounds/235546/ (CC0 1.0)

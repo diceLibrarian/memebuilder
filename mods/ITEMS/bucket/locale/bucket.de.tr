@@ -1,0 +1,9 @@
+# textdomain: bucket
+Empty Bucket=Leerer Eimer
+Water Bucket=Wassereimer
+River Water Bucket=Flusswassereimer
+Lava Bucket=Lavaeimer
+Bucket Water Source=Eimerwasserquelle
+Flowing Bucket Water=Fliesende Eimerwasser
+Bucket Lava Source=Eimerlavaquelle
+Flowing Bucket Lava=Fliesende Eimerlava

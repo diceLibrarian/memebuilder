@@ -1,0 +1,17 @@
+# textdomain: bucket
+Empty Bucket=
+Water Bucket=
+River Water Bucket=
+Lava Bucket=
+Bucket Water Source=
+Flowing Bucket Water=
+Bucket Lava Source=
+Flowing Bucket Lava=
+Wood=
+Stone=
+Steel=
+Bronze=
+Mese=
+Diamond=
+Gold=
+Mod: dynamic_liquid is not changed. add_to_water_nodes function is missing! Lava colling will not work the same ways, as the default water-lava interaction works.=

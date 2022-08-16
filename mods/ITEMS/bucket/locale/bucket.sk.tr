@@ -1,0 +1,17 @@
+# textdomain: bucket
+Empty Bucket=prázdne vedro
+Water Bucket=vedro s vodou
+River Water Bucket=vedro s vodou z rieky
+Lava Bucket=vedro s lávou
+Bucket Water Source=Zdroj vody z vedra
+Flowing Bucket Water=Tečúca voda z vedra
+Bucket Lava Source=Zdroj lávy z vedra
+Flowing Bucket Lava=Tečúca láva z vedra
+Wood=Drevené
+Stone=Kamenné
+Steel=Oceľové
+Bronze=Bronzové
+Mese=Mese
+Diamond=Diamantové
+Gold=Zlaté
+Mod: dynamic_liquid is not changed. add_to_water_nodes function is missing! Lava colling will not work the same ways, as the default water-lava interaction works.=Rozšírenie dynamic_liquid nie je zmenené. Chýba funkcia add_to_water_nodes! Ochladzovanie lávy nebude fungovať rovnako, ako funguje štandardná interakcia voda-láva.

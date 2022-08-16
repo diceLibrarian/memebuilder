@@ -1,0 +1,33 @@
+Twmlib Lua API
+==============
+
+Table of contents
+-- Introduction
+-- API
+---- twmlib.register_twm
+-- TWM definition
+
+
+Introduction
+------------
+
+Twmlib (Timed World Modifier) adds a kind of environmental ABM that could be triggered on a very wide range of nodes but only a few at a time.
+
+On a regular and rather short interval, a random node is picked around a player. If this node has a registered TWM, it can be triggered.
+
+
+API
+---
+
+### twmlib.register_twm(twm_definition)
+
+* `twm_definition` see below
+
+TWM definition
+--------------
+
+A TWM definition is like an ABM definition.
+
+* `nodenames` a table of node names, that can include groups with "group:<name>" rather than simple node name.
+* `chance` optional inverted chance of the TWM to be triggered. Default it 1.
+* `action` the function(pos, node) to be called when the TWM is triggered.

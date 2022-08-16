@@ -1,0 +1,71 @@
+# How far will water from bucket flow
+bucket_water_flowing_range (Bucket water flowing range) int 1
+
+# How far will lava from bucket flow
+bucket_lava_flowing_range (Bucket lava flowing range) int 1
+
+# If true, then liquid can be taken even from flowing one
+# (not only from source)
+bucket_get_flowing (Flowing liwuid can be taken) bool true
+
+# Use "clasic" bucket recipe
+# - This can interfere with farming mod Wood Empty Bucket = Wooden Bowl
+# + X + - + X +
+# + - + X + - +
+#
+# NEW Recipe
+# + X + - + X +
+# + X + - + X +
+# + X + X + X +
+bucket_use_clasic_recipe (Use clasic recipe for bucket) bool true
+
+# Unify water and river water
+# - taken river water is going to be changed to clasic water
+bucket_unify_river_water (Unify river water) bool false
+
+# Bucket liquid reverse interval
+# - if bucket water gets in touch with original source or water+lava
+#   then if will be changet back to original source
+# - in seconds
+bucket_liquid_abm (Bucket liquid reserve interval) float 1.0
+
+# Enabled buckettypes
+[Bucket types]
+
+# Default bucket type
+# - do not disable defined type, or you get nothing with /giveme bucket
+bucket_default_type (Bucket default type) enum steel steel,wood,stone,bronze,mese,diamond,gold
+
+# Enable steel bucket
+bucket_material_steel (Enable steel bucket) bool true
+# Enable wood bucket
+bucket_material_wood (Enable wood bucket) bool true
+# Enable stone bucket
+bucket_material_stone (Enable stone bucket) bool true
+# Enable bronze bucket
+bucket_material_bronze (Enable bronze bucket) bool true
+# Enable mese bucket
+bucket_material_mese (Enable mese bucket) bool true
+# Enable diamond bucket
+bucket_material_diamond (Enable diamond bucket) bool true
+# Enable gold bucket
+bucket_material_gold (Enable gold bucket) bool true
+
+# Enable getting lava with buckettypes
+[Get lava types]
+
+# Get lava with steel bucket
+bucket_getlava_steel (Enable steel bucket) bool true
+# Get lava with wood bucket
+bucket_getlava_wood (Enable wood bucket) bool false
+# Get lava with stone bucket
+bucket_getlava_stone (Enable stone bucket) bool true
+# Get lava with bronze bucket
+bucket_getlava_bronze (Enable bronze bucket) bool false
+# Get lava with mese bucket
+bucket_getlava_mese (Enable mese bucket) bool true
+# Get lava with diamond bucket
+bucket_getlava_diamond (Enable diamond bucket) bool true
+# Get lava with gold bucket
+bucket_getlava_gold (Enable gold bucket) bool false
+
