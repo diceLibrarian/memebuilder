@@ -1,0 +1,10 @@
+{
+    "type": "MOD",
+    "title": "Cartographer for Minetest Game",
+    "short_description": "Adds regional maps that you can craft and place (Minetest Game version)",
+    "dev_state": "MAINTENANCE_ONLY",
+    "license": "GPL-3.0-only",
+    "media_license": "CC-BY-SA-4.0",
+    "repo": "https://gitlab.com/Df458/cartographer-mtg",
+    "issue_tracker": "https://gitlab.com/Df458/cartographer-mtg/-/issues"
+}
